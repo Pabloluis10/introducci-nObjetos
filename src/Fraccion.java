@@ -22,7 +22,7 @@ public class Fraccion {
         int sumaDenominador;
         sumaNumerador = (numerador1 * denominador2) + (numerador2 * denominador1);
         sumaDenominador = denominador1 * denominador2;
-        System.out.print("La suma de las fracciones es: " + sumaNumerador + "/" + sumaDenominador);
+        System.out.print("\nLa suma de las fracciones es: " + sumaNumerador + "/" + sumaDenominador);
     }
 
     public void restar() {
@@ -30,7 +30,7 @@ public class Fraccion {
         int restaDenominador;
         restaNumerador = (numerador1 * denominador2) - (numerador2 * denominador1);
         restaDenominador = denominador1 * denominador2;
-        System.out.print("La resta de las fracciones es: " + restaNumerador + "/" + restaDenominador);
+        System.out.print("\nLa resta de las fracciones es: " + restaNumerador + "/" + restaDenominador);
     }
 
     public void multiplicar() {
@@ -38,7 +38,7 @@ public class Fraccion {
         int multDenominador;
         multNumerador = numerador1 * numerador2;
         multDenominador = denominador1 * denominador2;
-        System.out.print("La multipiclación de las fracciones es: " + multNumerador + "/" + multDenominador);
+        System.out.print("\nLa multipiclación de las fracciones es: " + multNumerador + "/" + multDenominador);
     }
 
     public void dividir() {
@@ -46,6 +46,6 @@ public class Fraccion {
         int divDenominador;
         divNumerador = numerador1 * denominador2;
         divDenominador = denominador1 * numerador2;
-        System.out.print("La división de las fracciones es: " + divNumerador + "/" + divDenominador);
+        System.out.print("\nLa división de las fracciones es: " + divNumerador + "/" + divDenominador + "\n");
     }
 }
