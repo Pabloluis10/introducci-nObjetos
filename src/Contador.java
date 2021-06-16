@@ -32,7 +32,7 @@ public class Contador {
         this.contador++;
     }
 
-    public void decrementar(int cantidad) {
+    public void decrementar() {
         this.contador--;
     }
 }
